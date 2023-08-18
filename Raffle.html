@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MuseMind-AboutUs</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&family=Raleway:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <nav class="navbar-nav">
+        <a href="Index.html" class="nav-link">Home</a>
+        <a href="contact.html" class="nav-link">Contacts </a>
+        <a href="AboutUs.html" class="nav-link">AboutUs</a>
+        <a href="Moreinfo.html" class="nav-link">MoreInfo</a>
+        <a href="Benefits.html" class="nav-link">Benefits/Tips</a>
+        <a href="#" class="nav-link">Raffle</a>
+        <div class="logo"><img src="assets/logo.png" alt="#" /></div>
+      </nav>
+    </nav>
+
+    <h1 class="text-h1">Raffle</h1>
+    <h2 class="h2info">
+      You can collaborate to hold as exhibition event and participate in a
+      raffle to win an easel
+    </h2>
+  <main  class="contenido">
+
+   
+      <div>
+        <h2 class="h2map">Our location is located at:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8827803802!2d-118.74138195907396!3d34.02003924141445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sar!4v1692333276472!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <form  class="forms" action="./assets/Sprint3/show_data.html" method="get">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required />
+          <br />
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Choose theme art</legend>
+          <select id="Theme" name="ThemeArt">
+            <option value="option1">Opción 1</option>
+            <option value="option2">Opción 2</option>
+            <option value="option3">Opción 3</option>
+          </select>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Choose Date</legend>
+          <label for="choose2">Choose Date:</label>
+          <input type="date" id="choose2" name="datechoose">
+        </fieldset>
+        <br />
+        <br />
+        <fieldset>
+          <legend>Payment Options</legend>
+          <input type="radio" id="payment1" name="payment" value="option1" />
+          <label for="payment1">Cash</label>
+          <input type="radio" id="payment2" name="payment" value="option2" />
+          <label for="payment2">Credit Card</label>
+          <input type="radio" id="payment3" name="payment" value="option3" />
+          <label for="payment3">Debit Card</label>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Mesagge</legend>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        </fieldset>
+        <br />
+        <label for="accept">I accept terms and conditions...</label>
+        <input type="checkbox" id="accept" name="terms" required>
+        <br />
+        <br />
+        <input type="submit" value="Enviar" />
+      </form>
+    
+
+  </main>
+    
+
+    <footer class="footer">
+      <h2>MuseMind</h2>
+      <h5>Copyright 2000-2023 Brian Ochoa S.R.L</h5>
+      <h6>Devoto - Cordoba - Argentina</h6>
+      <h6>Brianezequiel8a@gmail.com - +543564651449</h6>
+
+      <div>
+        <a href="https://www.linkedin.com/in/brian-ochoa-43605520a/"
+          ><img class="icono-footer" src="assets/linkedin.png" alt="/"
+        /></a>
+        <a href="https://www.instagram.com/brian.ochoa.14/"
+          ><img class="icono-footer" src="assets/instagram.png" alt="/"
+        /></a>
+        <a href="https://twitter.com/BBrian8a"
+          ><img class="icono-footer" src="assets/gorjeo.png" alt="/"
+        /></a>
+        <a href="https://www.facebook.com/brian.ochoa.3386/"
+          ><img class="icono-footer" src="assets/facebook.png" alt="/"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
